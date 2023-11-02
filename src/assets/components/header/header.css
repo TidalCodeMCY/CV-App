@@ -1,0 +1,25 @@
+.headhone {
+    text-align: center;
+    font-size: 34px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.headp {
+    position: relative;
+    left: 5%;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    min-height: fit-content;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding-bottom: 10px;
+}

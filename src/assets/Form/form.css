@@ -1,0 +1,30 @@
+.formwindow {
+    display: grid;
+    height: 79%;
+    width: 35%;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 12.5%;
+    left: 15%;
+    overflow-y: scroll;
+    box-shadow: 0 0 5px 4px crimson;
+}
+
+.formwindow::-webkit-scrollbar {
+    width: 5px;
+}
+
+.formwindow::-webkit-scrollbar-track {
+    box-shadow: 0 0 5px 0 #ccc;
+}
+
+.formwindow::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 0 4px 4px 0;
+}
+
+form {
+    display: grid;
+    margin: 10px;
+}

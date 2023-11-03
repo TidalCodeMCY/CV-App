@@ -7,8 +7,9 @@
 
 .headp {
     position: relative;
-    left: 5%;
+    left: 10%;
     margin: 0;
+    padding-left: 5%;
     font-size: 18px;
     font-weight: 500;
     color: rgba(255, 255, 255);

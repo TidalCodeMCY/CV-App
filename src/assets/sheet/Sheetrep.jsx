@@ -1,15 +1,20 @@
 import './sheet.css'
 
-export default function Sheetrep() {
-  return (
+
+export default function Sheetrep({named, email, phone, address, schoolName,
+                                 schoolAddress, time, Subject,jobName,
+                                 jobPosition, jobReason, jobResponse, skill, 
+                                 skillDesc}) {
+    
+    return (
     <>
         <div className="sheetrep">
             <div className='innerviewsheet'>
                 <div className="sheetheader">
-                    <h1 className="sheethone">Name Place Holder</h1>
+                    <h1 className="sheethone">{named}</h1>
                     <div className="innerheadersheet">
-                        <p className="sheetone"><img src="../../../public/message.jpg" alt="" width={'20px'} height={'20px'} className='headphotosheet'/>Email placeholder</p>
-                        <p className="sheettwo"><img src="../../../public/phone.webp" alt="" width={'20px'} height={'20px'} className='headphotosheet'/>Phone placeholder</p>
+                        <p className="sheetone"><img src="../../../public/message.jpg" alt="" width={'20px'} height={'20px'} className='headphotosheet'/>{email}</p>
+                        <p className="sheettwo"><img src="../../../public/phone.webp" alt="" width={'20px'} height={'20px'} className='headphotosheet'/>{phone}</p>
                         <p className="sheetthree"><img src="../../../public/ping.png" alt="" width={'20px'} height={'20px'} className='headphotosheet'/>Address placeholder</p>
                     </div>
                 </div>
